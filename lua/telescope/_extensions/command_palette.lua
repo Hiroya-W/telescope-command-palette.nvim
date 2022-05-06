@@ -86,7 +86,7 @@ local function commands(opts, table)
           tel_win_width = math.floor(cols * width)
         end
         local desc_width = math.floor(cols * 0.05)
-        local command_width = 28
+        local command_width = 60
 
         -- NOTE: the width calculating logic is not exact, but approx enough
         local displayer = entry_display.create({
